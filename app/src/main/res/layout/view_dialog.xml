@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/play_bkg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="#686962"
+                android:id="@+id/tv_title"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:padding="10dp"
+                android:textColor="#ebf2f2"
+                android:text="标题" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="#e1e4cf"
+                android:id="@+id/tv_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textColor="#fc040c"
+                android:text="删除" />
+
+        </LinearLayout>
+
+
+        <View
+            android:background="#000"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <View
+            android:background="#000"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_rename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:gravity="center_vertical|center"
+                android:padding="10dp"
+                android:textColor="@color/record_tv"
+                android:text="重命名" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

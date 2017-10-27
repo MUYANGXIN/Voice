@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#dcdbd1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <com.muyangxin.voice.myView.MarqueeTextView
+            android:id="@+id/lv_Name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:textColor="#312f33"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:lineSpacingExtra="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+
+
+            android:layout_gravity="center_vertical"  />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_gravity="center|center_vertical"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/a"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
